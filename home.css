@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-container {
+    padding: relative;
+    height: 100vh;
+    max-width: 100%;
+    background: url(./tom-yum-kung-bowl-with-tomato-chili-lemongrass-garlic-lemon-kaffir-lime-leaves_1150-25807.webp);
+    background-size: cover;
+    background-position: center center;
+}
+
+.container {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    width: 100%;
+    height: 100%;
+}
+
+.container h2 {
+    color: whitesmoke;
+    font-family: "Sofia", sans-serif;
+    text-align: center;
+    font-size: 3em;
+    font-weight: normal;
+    margin-bottom: 2rem;
+}
+
+.container h4 {
+    color: rgba(255, 217, 0, 0.685);
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.container h1 {
+    color: whitesmoke;
+    text-align: center;
+    font-size: 4em;
+    font-weight: normal;
+}
+
+.container h5 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color: whitesmoke;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: normal;
+}
+
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.control input[type="submit"] {
+    margin-top: 2.5rem;
+    padding: 5px 50px 5px 50px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    outline: none;
+    border: 1px solid yellow;
+    font-size: 1em;
+    font-weight: bold;
+    background: transparent;
+    color: whitesmoke;
+}
+
+* a {
+    text-decoration: none;
+}
+
+* li {
+    list-style: none;
+}
+
+header {
+    background-color: black;
+    padding: 10px 0;
+}
+
+.header-container {
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    font-family: "Sofia", sans-serif;
+    font-size: 2rem;
+}
+.logo a{
+    color: whitesmoke;
+}
+nav ul{
+    margin: 1rem;
+    display: flex;
+}
+nav ul li{
+    margin-right: 2rem;
+}
+nav ul li a{
+    color: whitesmoke;
+    font: 1em;
+}
+
+/* ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+} */
+
+/* li {
+    float: left;
+} */
+
+/* li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+} */
+
+/* li a:hover {
+    background-color: #111;
+} */
